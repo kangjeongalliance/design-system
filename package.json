@@ -9,20 +9,26 @@
   ],
   "scripts": {
     "build": "rollup -c",
+    "storybook": "start-storybook -p 6006",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Leo Jeong",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.9.6",
     "@rollup/plugin-commonjs": "^11.1.0",
     "@rollup/plugin-node-resolve": "^7.1.3",
+    "@storybook/react": "^5.3.18",
     "@types/react": "^16.9.34",
+    "babel-loader": "^8.1.0",
+    "babel-preset-react-app": "^9.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "rollup": "^2.8.2",
     "rollup-plugin-peer-deps-external": "^2.2.2",
     "rollup-plugin-sass": "^1.2.2",
     "rollup-plugin-typescript2": "^0.27.0",
+    "sass-loader": "^8.0.2",
     "typescript": "^3.8.3"
   },
   "peerDependencies": {
