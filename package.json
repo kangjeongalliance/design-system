@@ -1,6 +1,6 @@
 {
   "name": "@kang-jeong-alliance/kja-design-system",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "한번만 봐드리는 겁니다",
   "main": "build/index.js",
   "module": "build/index.es.js",
