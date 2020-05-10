@@ -11,19 +11,7 @@ import _ from 'lodash'
 
 // Internal
 import TextComponent from './Text.styled'
-
-export interface TextProps {
-  // Text content to render.
-  text?: string
-  // Font size.
-  size?: number
-  // Font Family, default is Arial.
-  font?: string
-  // Give color as Hex Code, or rgb func arguments.
-  color?: string | number[]
-  // Font weight
-  weight?: string | number
-}
+import { TextProps } from './Text.types'
 
 function Text({
   text = '',
