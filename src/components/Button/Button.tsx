@@ -16,7 +16,7 @@ import {
 
 function Button({
   content = 'Button',
-  theme,
+  theme = ButtonTheme.Normal,
 }: ButtonProps) {
   return (
     <button>
